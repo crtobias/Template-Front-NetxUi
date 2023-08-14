@@ -1,0 +1,37 @@
+.app{
+    background-color: rgb(14, 3, 11);
+    width: 100vw;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    place-items: center;
+    min-height: 150vh;
+    color: rgb(255, 255, 255);
+}
+.modoClaro {
+ background-color: rgb(162, 162, 162);
+ color: black;
+}
+
+
+.modos{
+    position: absolute;
+    right: 15px;
+    top: 100px;
+    border-radius: 50%;
+}
+
+.modoClaro .switch{
+    color: black;
+}
+.title{
+    font-size: 2rem;
+    filter: drop-shadow(0px 0px 25px rgb(208, 0, 255));
+}
+.modoClaro .title{
+    font-size: 2rem;
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+}
